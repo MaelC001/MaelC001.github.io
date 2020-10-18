@@ -1,18 +1,3 @@
-
-# HTID:12392958: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12392958:
-
-//Rewrite to www
-//Options +FollowSymLinks
-//RewriteEngine on
-//RewriteCond %{HTTP_HOST} ^maelc001.github.io/[nc]
-//RewriteRule ^(.*)$ www.maelc001.github.io/$1 [r=301,nc]
-
-//Rewrite to HTTPS
-//RewriteCond %{HTTPS} off
-//RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
 //Caching schema
 <FilesMatch "\.(css|js|png|jpg)$">
 Header set Cache-Control "private, proxy-revalidate, max-age=3600"
