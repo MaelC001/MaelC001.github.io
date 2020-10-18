@@ -39,6 +39,8 @@
 	
 	.page-content { padding-top: 80px; padding-bottom: 60px; }
 	
+	
+	#col-logo{column-count:2;}
 }
 
 @media (max-width: 575px){
@@ -54,4 +56,6 @@
         font-size: 0.8em;}
     #profils span{
         font-size: 0.8em;}
+    
+	#col-logo{column-count:1;}
 }
