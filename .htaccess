@@ -6,8 +6,8 @@ php_value display_errors 1
 //Rewrite to www
 //Options +FollowSymLinks
 //RewriteEngine on
-//RewriteCond %{HTTP_HOST} ^infinityfiles.atspace.cc/[nc]
-//RewriteRule ^(.*)$ http://www.infinityfiles.atspace.cc//$1 [r=301,nc]
+//RewriteCond %{HTTP_HOST} ^maelc001.github.io/[nc]
+//RewriteRule ^(.*)$ www.maelc001.github.io/$1 [r=301,nc]
 
 //Rewrite to HTTPS
 //RewriteCond %{HTTPS} off
