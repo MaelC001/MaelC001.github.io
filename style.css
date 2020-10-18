@@ -210,3 +210,7 @@ body{
 #col{
     column-count:2;
 }
+
+#col-logo{
+    column-count:3;
+}
