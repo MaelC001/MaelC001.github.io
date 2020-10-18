@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    
+    <!-- link to main stylesheet -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+  </head>
+  <body>
+    <nav class="top-menu active">
+	    <div class="components">
+		    <ul class="navigation">
+          <li ><a href="?acceuil">Profile</a></li>
+          <li><a href="?about">À propos</a></li>
+          <li><a href="?experience">Expériences</a></li>
+          <li><a href="?education">Éducation</a></li>
+          <li><a href="?competence">Compétences</a></li>
+          <li><a href="?projet">Projets</a></li>
+    	  </ul>
+	    </div>
+    </nav>
+    <div class="hamburger-button">
+	    <button type="button">
+		    <span></span>
+        <span></span>
+        <span></span>
+	    </button>
+    </div>
+    
+    <div class="container" >
+    {{ content }}
+    </div> 
+    
+    <!-- link to main js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
