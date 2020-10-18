@@ -1,0 +1,56 @@
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.top-menu .components { max-width: 992px; padding-left: 15px; padding-right: 15px; }
+	
+	.hamburger-button { max-width: 992px; }
+	.hamburger-button button { right: 15px; }
+	
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.top-menu .components { max-width: 768px; padding-left: 15px; padding-right: 15px; }
+	
+	.hamburger-button { max-width: 768px; }
+	.hamburger-button button { right: 15px; }
+
+}
+
+@media (max-width: 767px) {
+	
+	.top-menu { top: 0; }
+    .top-menu.active { top: -300px; transition: all 1.2s cubic-bezier(0.250, 0.250, 0.750, 0.750); }
+	
+	.top-menu .components { max-width: 100%; padding-top: 50px; }
+	.top-menu .logo { float: none; width: 100%; text-align: center; }
+	.top-menu .navigation { float: none; width: 100%; text-align: center; }
+	
+	.hamburger-button { width: 40px; }
+	
+	.hamburger-button button span:first-of-type { transform: none; opacity: 1; }
+	.hamburger-button button span:nth-of-type(2) { transform: none; opacity: 1; }
+	.hamburger-button button span:last-of-type { transform: none; opacity: 1; }
+	
+	.hamburger-button button.menu-closed span:first-of-type { transform: rotate(45deg) translate(5px, 5px); }
+	.hamburger-button button.menu-closed span:nth-of-type(2) { opacity: 0; }
+	.hamburger-button button.menu-closed span:last-of-type { transform: rotate(-45deg) translate(5px, -5px); }
+	
+	.page-content { padding-top: 80px; padding-bottom: 60px; }
+	
+}
+
+@media (max-width: 575px){
+	h1{
+	    font-size: 22px;}
+    #Pprofils{
+        font-size: 0.7em;}
+    #Pprofils span a{
+        font-size: 0.8em;}
+    #Pprofils span{
+        font-size: 0.8em;}
+    #PNumeros span{
+        font-size: 0.8em;}
+    #profils span{
+        font-size: 0.8em;}
+}
