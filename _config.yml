@@ -1,2 +1,4 @@
 nom: Portfolio - Maël Charpentier
 démarque: kramdown
+
+include: ['.htaccess']
