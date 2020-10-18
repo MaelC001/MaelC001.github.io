@@ -8,7 +8,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li, nav {
 a { color: #f35b3f; border-bottom: 1px dashed #f35b3f; text-decoration: none; transition: all .3s; }
 a:hover, a:focus { color: #f35b3f; border: 0; text-decoration: none; }
 
-.logo{border: 0; text-decoration: none;}
+.logo{border: 0; text-decoration: none; margin-left: auto; margin-right: auto;}
 
 /* Hamburger button code */
 
