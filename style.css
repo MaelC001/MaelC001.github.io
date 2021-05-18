@@ -88,50 +88,6 @@ body{
     font-size:normal;}
 
 
-/*python (skill)*/
-#Ptout{
-    font-family: 'Roboto', sans-serif;
-    margin: left;
-    width:100%;}
-    
-#PNumeros{
-    width: 43px;
-    background: #263238;
-    text-align: right;
-    padding: 7px 10px 7px 0;
-    float: left;
-    color: #cdd3de;
-    max-width:6%;}
-
-#Pprofils{
-    background: #1B2225;
-    color: #cdd3de;
-    display: inline-block;
-    padding: 7px 10px;
-    width: 94%;}
-
-.python{
-    color:#3fa9a6;}
-
-.Pskill{
-    color:#4cb0a3;}
-
-.Pnombre{
-    color:#acbfa8}
-
-.Pstr{
-    color:#9c7164;}
-
-.Pclass{
-    color:#cacab4;}
-
-.Pattribut{
-    color:#5d81a2;}
-
-.Pcommentaire{
-    color:#638758}
-
-
 /*timeline -> éducation*/
 .timeline{
 	padding:30px 20px;
