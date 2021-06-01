@@ -5,5 +5,3 @@ $('.niveau-barre').each(function() {
         width: Niveau
     });
 });
-
-

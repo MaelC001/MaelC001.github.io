@@ -10,27 +10,27 @@ a:hover, a:focus { color: #f35b3f; border: 0; text-decoration: none; }
 
 .logo{border: 0; text-decoration: none; margin-left: auto; margin-right: auto;}
 
-/* Hamburger button code */
+/* trois button code */
 
-.hamburger-button { position: relative; max-width: 1140px; margin: 0 auto; }
+.trois-button { position: relative; max-width: 1140px; margin: 0 auto; }
 
-.hamburger-button button {
+.trois-button button {
 	position: absolute; top: 10px; right: 0; width: 40px; height: 40px; 
 	background: none; border: 0; box-shadow: none; 
 	cursor: pointer; vertical-align: middle; z-index: 999;
 }
-.hamburger-button button:focus { outline: 0; }
+.trois-button button:focus { outline: 0; }
 
-.hamburger-button button span {
+.trois-button button span {
 	display: block; width: 80%; height: 2px; margin: 5px auto; background: #fff;
 	transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 
-.hamburger-button button:hover span,
-.hamburger-button button:focus span { background: #ccc; }
+.trois-button button:hover span,
+.trois-button button:focus span { background: #ccc; }
 
 
-.hamburger-button button.menu-closed span { transform: none; opacity: 1; }
+.trois-button button.menu-closed span { transform: none; opacity: 1; }
 
 
 /* Menu code */
