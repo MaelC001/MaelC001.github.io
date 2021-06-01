@@ -2,24 +2,28 @@
 @font-face {
     font-family: 'Share Tech Mono';
     font-style: normal;
-    font-weight: 400;}
+    font-weight: 400;
+}
     
 * {
     box-sizing: border-box;
     font-family:'Share Tech Mono',monospace;
     background-size: cover;
     font-size: 14px;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+}
 
 body{
-    background: #1B2225;}
+    background: #1B2225;
+}
 
 /*Les numéros pour le profil*/
 #tout{
     font-family: 'Roboto', sans-serif;
     margin: left;
     width:458px;
-    max-width:98%;} 
+    max-width:98%;
+} 
 
 #Numeros{
     width: 43px;
@@ -28,10 +32,12 @@ body{
     text-align: right;
     padding: 7px 10px 7px 0;
     float: left;
-    color: #cdd3de;}
+    color: #cdd3de;
+}
 
 .numero{
-    display: block;}
+    display: block;
+}
 
 /*information du profil*/
 #profils{
@@ -40,52 +46,64 @@ body{
     display: inline-block;
     padding: 7px 10px;
     width: 415px;
-    max-width:88%;}
+    max-width:88%;
+}
 
 .profil{
     color: #98A8B5;
     font-weight: 400;
-    display: block;}
+    display: block;
+}
 
 .titre{
-    color: #8EDCF5;}
+    color: #8EDCF5;
+}
 
 .crochet{
-    color: #cccccc;}
+    color: #cccccc;
+}
 
 .nom{
-    color: #CDFF8E;}
+    color: #CDFF8E;
+}
 
 .moi{
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
 
 .moi a{
     text-decoration: none;
     border-bottom: 1px dotted;
-    color: aquamarine;}
+    color: aquamarine;
+}
 
 /*arrière des informations*/
 .jumbo-background{
     background-color: #263240;
     color:#fff;
     margin-top: 80px;
-    padding: 16px;}
+    padding: 16px;
+}
 
 /*image de profl*/
 .profile-img{
-    margin-top: 120px;}
+    margin-top: 120px;
+}
 
 /*date et nom projet/travail*/
 .workTitle{
-    color:rgb(114, 119, 125);}
+    color:rgb(114, 119, 125);
+}
 
 /*lien projet*/
 #projectlink{
-    font-size:20px;}
+    font-size:20px;
+}
 
 /*plus info*/
 #plusinfo{
-    font-size:normal;}
+    font-size:normal;
+}
 
 
 /*timeline -> éducation*/
