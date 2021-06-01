@@ -1,0 +1,53 @@
+
+/*timeline -> éducation*/
+.timeline{
+	padding:30px 20px;
+	box-shadow:0px 0px 10px rgb(13, 40, 11);
+}
+.timeline ul{
+	list-style-type:none;
+	border-left:2px solid #ced7de;
+	border-right:2px solid #ced7de;
+	padding:10px 5px;
+}
+.timeline ul li{
+	padding:20px 20px;
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+}
+.timeline ul li span{
+	display:inline-block;
+	border-radius:25px;
+	padding:2px 5px;
+	font-size:15px;
+}
+.timeline ul li .content h3{
+	font-size:17px;
+	padding-top:5px;
+}
+.timeline ul li .content p{
+	padding:5px 0px 15px 0px;
+	font-size:15px;
+}
+.timeline ul li:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#ced7de;
+	border-radius:50%;
+	left:-11px;
+	top:28px;
+	transition:.5s;
+}
+.timeline ul li:hover #workTitle {
+	color:#1d1e22;
+}
+.timeline ul li:hover{
+	background-color:rgba(206, 215, 222, 0.5);
+}
+.timeline ul li:hover:before{
+	background-color:#4c0411;
+	box-shadow:0px 0px 10px 2px #4c0411;
+}
