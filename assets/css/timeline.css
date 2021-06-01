@@ -2,12 +2,12 @@
 /*timeline -> éducation*/
 .timeline{
 	padding:30px 20px;
-	box-shadow:0px 0px 10px rgb(13, 40, 11);
+	box-shadow:rgb(42, 46, 47) 0px 0px 10px;
 }
 .timeline ul{
 	list-style-type:none;
-	border-left:2px solid #ced7de;
-	border-right:2px solid #ced7de;
+	border-left:2px solid rgb(191, 188, 182);
+	border-right:2px solid rgb(191, 188, 182);
 	padding:10px 5px;
 }
 .timeline ul li{
@@ -35,7 +35,7 @@
 	content:'';
 	width:10px;
 	height:10px;
-	background-color:#ced7de;
+	background-color:rgb(191, 188, 182);
 	border-radius:50%;
 	left:-11px;
 	top:28px;
@@ -45,9 +45,9 @@
 	color:#1d1e22;
 }
 .timeline ul li:hover{
-	background-color:rgba(206, 215, 222, 0.5);
+	background-color: rgba(191, 188, 182, 0.5);
 }
 .timeline ul li:hover:before{
-	background-color:#4c0411;
-	box-shadow:0px 0px 10px 2px #4c0411;
+	background-color:#34393B;
+	box-shadow:0px 0px 10px 2px #34393B;
 }

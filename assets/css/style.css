@@ -6,17 +6,20 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li, nav {
 }
 
 
-a { color: #f35b3f;
-    border-bottom: 1px dashed #f35b3f;
+a {
+    color: rgb(209, 93, 72);
+    border-bottom: 1px dashed rgb(209, 93, 72);
     text-decoration: none;
     transition: all .3s;
 }
-a:hover, a:focus { color: #f35b3f;
+a:hover, a:focus {
+    color: rgb(209, 93, 72);
     border: 0;
     text-decoration: none;
 }
 
-.logo{border: 0;
+.logo{
+    border: 0;
     text-decoration: none;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +35,7 @@ a:hover, a:focus { color: #f35b3f;
 }
 
 body{
-    background: #1B2225;
+    background-color: rgb(47, 51, 53);
 }
 
 /*le profil*/
@@ -49,15 +52,15 @@ body{
 
 /*arrière des informations*/
 .jumbo-background{
-    background-color: #263240;
-    color:#fff;
+    background-color: rgb(51, 63, 77);
+    color:rgb(220, 218, 215);
     margin-top: 80px;
     padding: 16px;
 }
 
 /*date et nom projet travail*/
 .workTitle{
-    color:rgb(114, 119, 125);
+    color:rgb(109, 118, 122);
 }
 
 /*lien projet*/

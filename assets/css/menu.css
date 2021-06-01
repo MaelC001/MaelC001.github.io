@@ -27,13 +27,13 @@
 	width: 80%;
 	height: 2px;
 	margin: 5px auto;
-	background: #fff;
+	background: rgb(220, 218, 215);
 	transition: all .8s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 
 .trois-button button:hover span,
 .trois-button button:focus span {
-	background: #ccc;
+	background: rgb(184, 180, 174);
 }
 
 
@@ -51,8 +51,9 @@
 	left: 0;
 	width: 100%;
 	padding: 10px 0;
-	background: #333;z-index:9;
-	box-shadow: 0 2px 5px 1px rgba(51, 51, 51, 0.5);
+	background-color: rgb(60, 65, 68);
+	z-index:9;
+	box-shadow: rgba(60, 65, 68, 0.5) 0px 2px 5px 1px;
 	transition: all .5s cubic-bezier(0.250, 0.250, 0.750, 0.750);
 }
 
@@ -94,12 +95,12 @@
 .top-menu .navigation li a {
 	display: inline-block;
 	padding: 5px 10px;
-	color: #fff;
+	color: rgb(220, 218, 215);
 	border: 0;
 }
 .top-menu .navigation li a:hover,
 .top-menu .navigation li a:focus {
-	color: #ccc;
+	color: rgb(184, 180, 174);
 	border: 0;
 	outline: 0;
 }
