@@ -29,7 +29,7 @@ a:hover, a:focus { color: #f35b3f;
     margin-right: auto;
 }
 
-    
+
 * {
     box-sizing: border-box;
     font-family:'Share Tech Mono',monospace;
@@ -71,13 +71,6 @@ body{
 .projectlink{
     font-size:20px;
 }
-
-/*plus info*/
-.plusinfo{
-    font-size:normal;
-}
-
-
 
 
 #col{
