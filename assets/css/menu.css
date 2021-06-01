@@ -1,15 +1,3 @@
-
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li, nav {
-	margin: 0;
-	border: 0;
-}
-
-
-a { color: #f35b3f; border-bottom: 1px dashed #f35b3f; text-decoration: none; transition: all .3s; }
-a:hover, a:focus { color: #f35b3f; border: 0; text-decoration: none; }
-
-.logo{border: 0; text-decoration: none; margin-left: auto; margin-right: auto;}
-
 /* trois button code */
 
 .trois-button { position: relative; max-width: 1140px; margin: 0 auto; }

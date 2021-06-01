@@ -1,26 +1,4 @@
 /* latin */
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li, nav {
-	margin: 0;
-	border: 0;
-}
-
-
-a { color: #f35b3f;
-    border-bottom: 1px dashed #f35b3f;
-    text-decoration: none;
-    transition: all .3s;
-}
-a:hover, a:focus { color: #f35b3f;
-    border: 0;
-    text-decoration: none;
-}
-
-.logo{border: 0;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @font-face {
     font-family: 'Share Tech Mono';
     font-style: normal;
@@ -39,12 +17,64 @@ body{
     background: #1B2225;
 }
 
-/*le profil*/
+/*Les numéros pour le profil*/
 #tout{
     font-family: 'Roboto', sans-serif;
     margin: left;
     width:458px;
     max-width:98%;
+} 
+
+#Numeros{
+    width: 43px;
+    max-width:10%;
+    background: #263238;
+    text-align: right;
+    padding: 7px 10px 7px 0;
+    float: left;
+    color: #cdd3de;
+}
+
+.numero{
+    display: block;
+}
+
+/*information du profil*/
+#profils{
+    background: #1B2225;
+    color: #cdd3de;
+    display: inline-block;
+    padding: 7px 10px;
+    width: 415px;
+    max-width:88%;
+}
+
+.profil{
+    color: #98A8B5;
+    font-weight: 400;
+    display: block;
+}
+
+.titre{
+    color: #8EDCF5;
+}
+
+.crochet{
+    color: #cccccc;
+}
+
+.nom{
+    color: #CDFF8E;
+}
+
+.moi{
+    color: #FFFFFF;
+}
+
+.moi a{
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: aquamarine;
 }
 
 /*arrière des informations*/
@@ -134,7 +164,7 @@ body{
   background:#fff;
 }
 .niveau-barre {
-  height:30px;
+  height:30px; 
   background:#1B2225;
   width:1px;
   -webkit-transition: width 1s ease;
@@ -142,10 +172,10 @@ body{
   transition: width 1s ease;
 }
 .valeur {
-  line-height:30px;
-  color:#fff;
-  margin-left:10px;
-  font-family:"Montserrat";
+  line-height:30px; 
+  color:#fff; 
+  margin-left:10px; 
+  font-family:"Montserrat"; 
   font-size:12px;
 }
 
